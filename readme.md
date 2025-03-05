@@ -3,8 +3,6 @@
 This course's code consists of multiple repositories, all of which have been uploaded to the course Git server.  
 To facilitate browsing, each code repository is divided into branches according to chapters.  
 
-For example, the `recall-service` repository has two branches, `cp2` and `cp4`, which correspond to the project code for chapters 2 and 4, respectively. If a certain chapter does not have an updated version of the repository, students can use the previous chapter’s code to run the project.
-
 ## Repository List
 - **dataset**  
   - Course project dataset  
@@ -45,7 +43,7 @@ The final project directory structure should look like this:
   - web-service/
 
 ### Preparing the Environment
-Before running the project, navigate into each of the four service directories, switch to the corresponding chapter branch (e.g., `cp2`), and set up a Python virtual environment (this step is only required once):
+Before running the project, navigate into each of the four service directories, and set up a Python virtual environment (this step is only required once):
 
 ```sh
 virtualenv venv --python=python3
